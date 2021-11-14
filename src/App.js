@@ -3,6 +3,7 @@ import './App.css';
 import './Normalize.css';
 import Coverpage from './components/coverpage/Coverpage';
 import Navbar from './components/navbar/Navbar';
+import About from './components/about/About';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
     <div className="App">
       <Navbar scrollView={scrollHeight}/>
       <Coverpage/>
+      <About/>
     </div>
   );
 }
