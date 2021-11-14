@@ -4,6 +4,7 @@ import './Normalize.css';
 import Coverpage from './components/coverpage/Coverpage';
 import Navbar from './components/navbar/Navbar';
 import About from './components/about/About';
+import Slider from './components/slider/Slider';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <Navbar scrollView={scrollHeight}/>
       <Coverpage/>
       <About/>
+      <Slider/>
     </div>
   );
 }
